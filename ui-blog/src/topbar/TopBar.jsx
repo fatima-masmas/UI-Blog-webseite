@@ -4,11 +4,11 @@ import "./topbar.css";
 export default function Topbar() {
     return (
         <div className="top">
-            <div className="topLeft">L 
-             <i class="fa-brands fa-facebook"></i>
-             <i class="fa-brands fa-twitter"></i>
-             <i class="fa-brands fa-pinterest"></i>
-             <i class="fa-brands fa-square-instagram"></i></div>
+            <div className="topLeft"> 
+             <i className="topIcon fa-brands fa-facebook"></i>
+             <i className="topIcon fa-brands fa-twitter"></i>
+             <i className="topIcon fa-brands fa-pinterest"></i>
+             <i className="topIcon fa-brands fa-square-instagram"></i></div>
             <div className="topCenter">
                 <ul className="topList">
                     <li className="topListItem">HOME</li>
@@ -20,8 +20,10 @@ export default function Topbar() {
                 </ul>
             </div>
             <div className="topRight">
-                <img className="topImg" src="" alt="" />
-                <i class="fa-solid fa-magnifying-glass"></i>
+                <img className="topImg" 
+                     src="./img/img_girl.jpg" 
+                     alt=""  />
+                <i className="topSearchIcon fa-solid fa-magnifying-glass"></i>
             </div>
 
         </div>
