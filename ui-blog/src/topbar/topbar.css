@@ -9,9 +9,42 @@
     font-family: 'EB Garamond', serif;
 }
 .topLeft, .topRight {
-    flex:3;
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .topCenter{
     flex: 6;
-
+}
+.topImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.topIcon{
+    font-size: 20px;
+    margin-right: 10px;
+    color: #444;
+    cursor: pointer;
+}
+.topList{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.topListItem{
+    margin-right: 30px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.topSearchIcon{
+    font-size: 20px;
+    color: #444;
+    cursor: pointer;
+    margin-left: 15px;
 }
