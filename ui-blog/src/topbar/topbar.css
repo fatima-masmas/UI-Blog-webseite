@@ -8,3 +8,10 @@
     align-items: center;
     font-family: 'EB Garamond', serif;
 }
+.topLeft, .topRight {
+    flex:3;
+}
+.topCenter{
+    flex: 6;
+
+}
