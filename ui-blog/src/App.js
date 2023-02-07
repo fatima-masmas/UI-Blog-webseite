@@ -7,7 +7,8 @@ function App() {
   return (
     <>
     <Topbar/>
-     <Home /> 
+     <Home />
+     
 
     </>
   );
