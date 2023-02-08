@@ -1,3 +1,4 @@
+import React from "react";
 import "./login.css"
 
 export default function Login() {
@@ -10,9 +11,12 @@ export default function Login() {
             <label >Passwort</label>
             <input type="passwort" className="loginInput" placeholder="Enter your Passwort..." />
             <button className="loginButton">Log In</button>
-            <button className="loginRegisterButton">Register</button>
-        </from>
+           </from>
+         <button className="loginRegisterButton">
+          <link className="link" to="/register">Register</link>
+         </button>
+        
       
     </div>
-  )
+  );
 }

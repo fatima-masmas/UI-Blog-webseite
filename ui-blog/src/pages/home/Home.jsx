@@ -1,4 +1,4 @@
-/* eslint-disable react/jsx-no-undef */
+import React from "react";/* eslint-disable react/jsx-no-undef */
 import Header from "../../components/header/Header";
 import Sidebar from "../../components/sidebar/Sidebar";
 import Posts from "../../components/posts/Posts";
