@@ -2,7 +2,7 @@
 import Topbar from "./components/topbar/TopBar";
 import Login from "./pages/login/Login";
 
-import Settings from "./pages/settings/Settings";
+import Register from "./pages/register/Register";
 
 
 
@@ -10,7 +10,7 @@ function App() {
   return (
     <>
     <Topbar/>
-     <Login />
+     <Register />
      
 
     </>

@@ -6,7 +6,7 @@
    ;
     background: linear-gradient(
         rgba(255, 255, 255, 0.5),
-        rgba(255, 255, 255, 0.5)), url("./img/img_girl.jpg");
+        rgba(255, 255, 255, 0.5)), url("./img/img_mountains.jpg");
     align-items: center;
     background-size: cover;
 }
