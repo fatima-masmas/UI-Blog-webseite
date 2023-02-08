@@ -21,6 +21,7 @@ export default function Sidebar() {
                     <li className="sidebarListItem">Tech</li>
                     <li className="sidebarListItem">Cinema</li>
                     <li className="sidebarListItem">Theater</li>
+                    <li className="sidebarListItem">News</li>
                 </ul>
             </div>
             <div className="sidebarItem">
