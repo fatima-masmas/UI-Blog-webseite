@@ -9,7 +9,8 @@
     font-family: 'EB Garamond', serif;
     z-index: 999;
 }
-.topLeft, .topRight {
+.topLeft, 
+.topRight {
     flex: 3;
     display: flex;
     align-items: center;
