@@ -3,7 +3,7 @@ import "./post.css"
 export default function Post() {
   return (
     <div className="post">
-      <img classNmae="postImg"src="https://picsum.photos/170" alt=""/>
+      <img classNmae="postImg" src="https://picsum.photos/300" alt=""/>
       <div className="postInfo">
         <div className="postCats">
             <span className="postCat">Munsic</span>
@@ -16,6 +16,14 @@ export default function Post() {
         <span className="postDate">1 hour ago</span>
       </div>
       <p className="postDesc">In React applications, Images are 
+        served from different folder locations. public folder src folder
+        In React applications, Images are 
+        served from different folder locations. public folder src folder
+        In React applications, Images are 
+        served from different folder locations. public folder src folder
+        In React applications, Images are 
+        served from different folder locations. public folder src folder
+        In React applications, Images are 
         served from different folder locations. public folder src folder</p>
     </div>
   )
