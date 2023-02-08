@@ -3,6 +3,7 @@ import "./write.css";
 export default function Write() {
   return (
     <div className='write'>
+        <img className="writeImg" src="https://picsum.photos/200" alt=""/>
         <form action="" className="writeForm">
             <div className="writeFormGroup">
                 <label className="fileInput">
