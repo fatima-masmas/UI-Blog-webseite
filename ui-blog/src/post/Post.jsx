@@ -8,13 +8,15 @@ export default function Post() {
         <div className="postCats">
             <span className="postCat">Munsic</span>
             <span className="postCat">Life</span>
-            <span className="postCat">style</span>
+           
         </div>
         <span className="postTitle">In React applications, 
         </span>
         <hr/>
-        <span className="postDate"></span>
+        <span className="postDate">1 hour ago</span>
       </div>
+      <p className="postDesc">In React applications, Images are 
+        served from different folder locations. public folder src folder</p>
     </div>
   )
 }
